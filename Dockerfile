@@ -1,4 +1,4 @@
-FROM debian:8.1
+FROM debian:9.8
 
 RUN apt-get update ; \
 apt-get -y install mc htop git autoconf libtool automake build-essential gettext cmake python libtool-bin wget ; \
